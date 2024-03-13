@@ -1,0 +1,23 @@
+export type BoxProps = {
+  margin: number;
+  marginHorizontal: number;
+  marginVertical: number;
+  marginTop: number;
+  marginBottom: number;
+  marginLeft: number;
+  marginRight: number;
+  padding: number;
+  paddingLeft: number;
+  paddingRight: number;
+  paddingBottom: number;
+  paddingTop: number;
+  alignItems: number;
+  display: number;
+  justifyContent: number;
+  flexDiretcion: number;
+  gap: number;
+  backgroundColor: number;
+  fixed: boolean;
+  children: React.ReactNode;
+  style: React.CSSProperties;
+};
