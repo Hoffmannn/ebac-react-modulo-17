@@ -1,6 +1,6 @@
 import React from "react";
 import { CartPlus } from "react-bootstrap-icons";
-import { formatToCurrency } from "../utils/formatToCurrenct";
+import { formatToCurrency } from "../utils/formatToCurrency";
 import Button from "../ebac-ds/button/Button";
 import { Box, Card, Divider } from "../ebac-ds/ebac-ds";
 import { Image, Text, useToast } from "@chakra-ui/react";

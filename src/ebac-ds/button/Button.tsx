@@ -14,7 +14,7 @@ function Button({
   p,
   isDisabled,
   ...props
-}: ButtonProps) {
+}: Required<ButtonProps>) {
   const mhorizontal = mh ? `mh${mh}` : "";
   const mvertical = mv ? `mv${mv}` : "";
   const mleft = ml ? `ml${ml}` : "";

@@ -1,6 +1,6 @@
 import { Box, Card, Image } from "@chakra-ui/react";
 import React from "react";
-import { formatToCurrency } from "../../utils/formatToCurrenct";
+import { formatToCurrency } from "../../utils/formatToCurrency";
 import { MinusIcon, AddIcon, DeleteIcon } from "@chakra-ui/icons";
 import Button from "../../ebac-ds/button/Button";
 

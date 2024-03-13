@@ -22,7 +22,7 @@ function Box({
   backgroundColor,
   fixed,
   ...props
-}: BoxProps) {
+}: Readonly<BoxProps>) {
   const mhorizontal = marginHorizontal ? `mh${marginHorizontal}` : "";
   const mvertical = marginVertical ? `mv${marginVertical}` : "";
   const mleft = marginLeft ? `ml${marginLeft}` : "";
